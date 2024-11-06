@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main()
@@ -54,7 +55,7 @@ int main()
   {
     for (int j = 0; j < 2; j++)
     {
-      printf("%d ", matrix[i][j] + matrix2[i][j]);
+      printf("%d\t", matrix[i][j] + matrix2[i][j]);
     }
     printf("\n");
   }
@@ -71,7 +72,7 @@ int main()
       {
         result[i][j] += matrix[i][k] * matrix2[k][j];
       }
-      printf("%d", result[i][j]);
+      printf("%d\t", result[i][j]);
     }
     printf("\n");
   }
